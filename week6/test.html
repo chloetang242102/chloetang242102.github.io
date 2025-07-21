@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+        body {
+            background-color: #f3f3f3;
+            font-family: 'DM Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: #ffffff;
+            width: 320px;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 6px 6px 0 #000000;
+            position: relative;
+            border: 1px solid #ccc;
+        }
+
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .profile-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #b9ff66;
+            box-shadow: 4px 4px 0 #000000;
+            object-fit: cover;
+        }
+
+        .linkedin-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: black;
+            color: #b9ff66;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .profile-info h3 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #555;
+            margin-top: 4px;
+            margin-bottom: 12px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 12px 0;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-card">
+        <div class="profile-header">
+            
+        </div>
+        <div class="linkedin-icon">in</div>
+        <div class="profile-info">
+            <h3>John Smith</h3>
+            <p class="title">CEO and Founder</p>
+            <hr />
+            <p class="description">
+                10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
