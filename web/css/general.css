@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+h1 {
+    font-family: 'Noto Serif';
+    color: #F8A720;
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+    color: #642714;
+    font-family: 'Open Sans';
+}
+
+.header {
+    background-color: #F8A720;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.menu {
+    display: flex;
+}
+
+a {
+    font-weight: bolder;
+    color: #642714;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+
+.see-more {
+    color: #565656;
+    font-weight: normal;
+    text-decoration: underline;
+    padding: 50px;
+}
+
+.button {
+    margin-left: 50px;
+}

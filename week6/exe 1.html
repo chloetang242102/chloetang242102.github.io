@@ -118,7 +118,13 @@
 
         .service-card.dark {
             background-color: #191A23;
-            color: white;
+            border-radius: 30px;
+          
+
+        }
+        .service-card.white {
+            background-color: #ffffff;
+            border-radius: 30px;
         }
 
         .service-card .text {
@@ -350,23 +356,39 @@
             margin-top: 30px;
         }
 
-        .member {
+        .team-card {
+            display: flex;
+            flex-direction: column;
             border: 1px solid #ccc;
+            border-radius: 16px;
             padding: 20px;
-            border-radius: 10px;
-            width: 250px;
             background: #fff;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        .member img {
-            border-radius: 50%;
-            width: 60px;
-            height: 60px;
+        .team-card:hover {
+            transform: translateY(-5px);
         }
 
-        .member h4,
-        .member p {
-            margin: 10px 0 5px;
+        .team-card img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .team-card h3 {
+            font-size: 22px;
+            margin: 0 0 10px;
+        }
+
+        .team-card p {
+            margin: 0 0 10px;
+            color: #666;
         }
 
         /* Footer */
@@ -566,7 +588,7 @@
         </div>
 
         <div class="services-grid">
-            <div class="service-card">
+            <div class="service-card white">
                 <div class="text">
                     <h3 class="highlight-green">Search Engine Optimization</h3>
                 </div>
@@ -783,5 +805,4 @@
         </footer>
     </div>
 </body>
-
 </html>
