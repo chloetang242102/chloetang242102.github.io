@@ -1,0 +1,909 @@
+/* Page specific styles kept here; shared helpers were moved to general.css */
+
+body {
+  background-color: #fbfcee;
+}
+
+.hero-section {
+  padding: 50px 70px 80px;
+  background-image: url("/img/hero-bg.png");
+  background-position: 100% 41%;
+  background-repeat: no-repeat;
+}
+
+.hero-section .content {
+  display: flex;
+  flex-direction: row;
+  gap: 90px 90px;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.learn-more {
+  width: 30%;
+}
+
+.hero-image {
+  width: 40%;
+}
+
+.hero-image img {
+  display: inline-block;
+  vertical-align: middle;
+  aspect-ratio: auto 738 / 851;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 738px;
+  height: 851px;
+}
+
+h2.heading-title {
+  font-size: 7vw;
+  line-height: 0.9em;
+  letter-spacing: -0.03em;
+  margin: 0vw 0vw 0vw -0.8vw;
+  padding: 0;
+}
+
+h1.heading-title {
+  font-size: 10.9vw;
+  line-height: 0.9em;
+  letter-spacing: -0.05em;
+  margin: 0vw 0vw 0vw -1.3vw;
+  padding: 0px 0px 45px 0px;
+}
+
+/* .hero-section layout and button styles are defined in general.css */
+
+.hero-image-2 {
+  width: 30%;
+}
+
+.hero-image-2 img {
+  width: 740px;
+}
+
+.learn-more .icon {
+  padding: 0 0 55px 0;
+}
+.learn-more .icon svg {
+  height: 60px;
+}
+.hero-section .description {
+  padding: 0 0 40px 0;
+}
+.hero-section .description h6 {
+  font-size: 14px;
+  line-height: 1.85em;
+  letter-spacing: 0.08em;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.adventure-section .section-title h6 {
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 1px;
+  margin: 0 0 22px 0;
+  padding: 0;
+}
+
+.adventure-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+}
+
+.adventure-section .section-title {
+  text-align: center;
+  width: 100%;
+  max-width: 735px;
+}
+
+.adventure-section .section-title h1 {
+  line-height: 1em;
+  margin-bottom: 52px;
+}
+
+.adventure-section {
+  padding-bottom: 150px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.adventure-section .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 30px;
+  height: 100%;
+}
+
+.adventure-section .card-1 {
+  background-color: #677115;
+}
+.adventure-section .card p {
+  margin: 0 0 26px 0;
+}
+.adventure-section .card-2 {
+  background-color: #ffffff;
+}
+.adventure-section .card-3 {
+  background-color: #a8463f;
+}
+
+.adventure-section .card-image {
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+}
+.adventure-section .card-image-1 {
+  border-radius: 200px 200px 0 0;
+}
+
+.adventure-section .card-image-2 {
+  border-radius: 100px 0 100px 0;
+}
+.adventure-section .card-image-3 {
+  border-radius: 200px;
+}
+
+.white-text {
+  color: #fffefe;
+}
+
+.adventure-section .card-learn-more {
+  margin-top: 30px;
+}
+.adventure-section .card-learn-more a h6 {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.location-section .heading-title h1 {
+  font-size: 15vw;
+  letter-spacing: -0.03em;
+  color: #e7e7d9;
+}
+.location-section .heading-title {
+  display: flex;
+  flex-direction: column;
+  padding: 0 70px 150px;
+}
+
+.content-table {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 52px 0;
+}
+
+.content-table .left,
+.content-table .right {
+  width: 50%;
+}
+
+.content-table .left h6 {
+  padding-top: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 1px;
+}
+
+.location-section .content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 70px 150px;
+  margin: 0 auto;
+}
+
+.content-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.content-image-2,
+.content-image-4 {
+  margin-top: 30px;
+}
+
+.record-section {
+  display: flex;
+  justify-content: center;
+}
+.record-section .content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 150px;
+  width: 1100px;
+}
+.record-section h1 {
+  font-size: 120px;
+  line-height: 0.9em;
+  margin: 0 0 10px 0;
+}
+
+.record .number,
+.record .label {
+  display: flex;
+  justify-content: center;
+}
+
+.explore-more {
+  background-image: url("/img/explore-more-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 39.6vw;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 60px;
+}
+.explore-more .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.explore-more .content .heading-title {
+  width: 66.66%;
+}
+.explore-more .content .heading-title h1 {
+  width: 585px;
+  color: #fffefe;
+}
+.white-button a {
+  color: #fffefe;
+  border-color: #fffefe;
+}
+
+.white-button a:hover {
+  color: #140503;
+  background-color: #fffefe;
+}
+
+.explore-more .white-button {
+  width: 33.33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.experience-section {
+  display: flex;
+  flex-direction: row;
+  gap: 14% 14%;
+  padding: 150px 70px;
+  max-width: 100%;
+}
+.experience-section .left,
+.experience-section .right {
+  width: 50%;
+}
+.experience-section .left .caption h6 {
+  margin: 0 0 25px 0;
+}
+
+.experience-section .left .title {
+  margin: 0 0 28px 0;
+}
+.experience-section .caption h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 1px;
+}
+.experience-section .left .description {
+  margin: 0 0 9vw 0;
+}
+.experience-section .left .description p,
+.experience-section .right .description p {
+  color: #82878e;
+}
+.experience-section .left .description p:first-child {
+  margin-bottom: 1.62em;
+}
+.experience-section .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.travel-stories {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0;
+}
+.travel-stories .container {
+  display: flex;
+  max-width: 1100px;
+}
+.travel-stories .container .heading {
+  flex-direction: column;
+  margin: 0 8vw;
+  max-width: min(100%, 1100px);
+  width: 100%;
+  padding: 0 0 52px;
+}
+.travel-stories .heading .caption h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 1px;
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+
+.travel-stories .cards {
+  display: flex;
+  flex-direction: row;
+  padding: 0 70px;
+}
+.travel-stories .card {
+  width: 25%;
+  margin: 0 0 30px;
+  padding: 0 15px;
+}
+.travel-stories .card .image {
+  margin-bottom: 22px;
+}
+.travel-stories .card .card-content .caption {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.travel-stories .card .card-content .title h4 {
+  margin-bottom: 7px;
+}
+.travel-stories .card .card-content .date {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #a7acb2;
+  margin-bottom: 0;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-style: normal;
+}
+
+.explore-ordinary {
+  background-image: url("/img/ordinary-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 70px;
+}
+.explore-ordinary .content {
+  background-color: #ffffff;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  padding: 55px 40px;
+}
+.explore-ordinary .content .title h2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.explore-ordinary .content .description {
+  margin: 0 0 9.7vw 0;
+}
+.explore-ordinary .content .description p {
+  color: #82878e;
+}
+.explore-ordinary .content .get-started a h6 {
+  font-size: 12px;
+  line-height: 1em;
+  letter-spacing: 1px;
+}
+
+.carousel {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 150px;
+}
+.carousel span {
+  font-size: 140px;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  letter-spacing: -0.03em;
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.review-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 150px;
+}
+.review-section .review-container {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.review-section .review-container .stars {
+  font-size: 17px;
+  margin: 0 0 26px 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-section .review-container .stars svg {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: #ed8a19;
+}
+
+.review-section .review-container .comments {
+  margin: 0 0 50px 0;
+}
+.review-section .review-container .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.review-section .review-container .profile .image {
+  width: 65px;
+  height: 65px;
+  margin: 0 0 15px 0;
+}
+.review-section .review-container .profile .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100% !important;
+  border-radius: 50%;
+}
+.review-section .review-container .profile .name h6 {
+  text-align: center;
+  margin: 0 0 4px 0;
+}
+.review-section .review-container .profile .position p {
+  color: #a7acb2;
+  font-size: 15px;
+  line-height: 20px;
+}
+.review-section .pagination {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.review-section .pagination .pagination-bullet {
+  height: 7px;
+  width: 7px;
+  background: #e7e7d9;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 160ms ease, transform 160ms ease;
+  outline: none;
+}
+.review-section .pagination .active {
+  background: #ed9266;
+}
+.review-section .pagination .pagination-bullet:hover {
+  background: #e68354;
+}
+.review-section .pagination .pagination-bullet:focus {
+  border-radius: 50%;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0;
+}
+/* Instagram underline SVG styling */
+.instagram .instagram-container .title h6 {
+  padding: 0;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.instagram .instagram-container .title a {
+  color: #140503;
+  text-decoration: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.instagram .instagram-container .title a svg {
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  overflow: visible;
+  color: #ed9266;
+}
+.instagram .instagram-container .title a svg path {
+  fill: none;
+  stroke: #ed9266;
+  stroke-width: 50;
+  stroke-dasharray: 1500px, 1500px;
+}
+.instagram-container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+}
+.instagram-container .title h6 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.instagram-container .images {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+
+.footer {
+  background-color: #472425;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 100px 70px 70px;
+}
+.footer .navigation {
+  /* Use CSS Grid: left column for heading, right column for navigation columns */
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 30px;
+  padding-bottom: 150px;
+  align-items: start;
+}
+.footer .navigation .heading {
+  /* let the grid control sizing */
+  width: auto;
+}
+.footer .navigation .heading .title {
+  margin: 0 0 40px 0;
+}
+.footer .navigation .heading .description p {
+  color: #ffffff;
+  width: 90%;
+}
+.footer .navigation .navigation-container {
+  /* make the right side a 3-column grid for the footer columns */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-top: 3px;
+  width: auto;
+}
+.footer .navigation .navigation-container .column {
+  /* columns will be sized by the grid */
+  width: auto;
+}
+.footer .navigation .navigation-container .column .content h6,
+.footer .navigation .navigation-container .column .content a,
+.footer .navigation .navigation-container .column .content span,
+.footer .navigation .navigation-container .column .content {
+  color: #ffffff;
+}
+.footer .navigation .navigation-container .column .content h6 {
+  margin: 0 0 25px 0;
+}
+.footer .navigation .navigation-container .column .address {
+  margin: 0 0 35px 0;
+}
+.footer .navigation .navigation-container .column .address p {
+  color: #ffffff;
+  width: 70%;
+}
+.footer .navigation .navigation-container .column .email {
+  margin: 0 0 35px 0;
+}
+.footer .navigation .navigation-container .column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer .navigation .navigation-container .column ul li a span {
+  color: #ffffff;
+}
+.footer .title h1 {
+  font-size: 15vw;
+  letter-spacing: -7px;
+  color: #573435;
+}
+
+@media (max-width: 1279px) {
+  .hero-section {
+    padding: 30px 30px 50px;
+    background-position: 100% 40%;
+    background-size: 50vw auto;
+  }
+
+  .hero-section .hero-image img {
+    height: 370px;
+    object-fit: fill;
+  }
+
+  .hero-section .content {
+    gap: 30px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 20px 20px 30px;
+    background-position: 100% 70px;
+  }
+
+  .hero-section .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px 40px;
+  }
+
+  .hero-section .hero-image img {
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .learn-more {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-image-2 {
+    width: 100%;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .adventure-section {
+    padding-bottom: 0;
+  }
+
+  .adventure-section .container {
+    padding-bottom: 65px;
+    max-width: calc(100vw - 20px * 2);
+  }
+
+  .location-section .heading-title {
+    padding: 0 20px 65px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-table {
+    flex-direction: column;
+    margin: 0 0 52px 0;
+  }
+
+  .location-section .content {
+    padding: 0 20px 65px;
+  }
+
+  .location-section .content .content-table {
+    gap: 10px 10px;
+  }
+
+  .location-section .content .content-table .left,
+  .location-section .content .content-table .right {
+    width: 100%;
+  }
+
+  .location-section .content .content-images {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-auto-flow: row;
+  }
+
+  .record-section .content {
+    padding-bottom: 65px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+  }
+
+  .record-section .content h1 {
+    font-size: 48px;
+  }
+
+  .explore-more .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .explore-more {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 350px;
+  }
+
+  .explore-more .white-button {
+    padding-top: 20px;
+    justify-content: flex-start;
+  }
+
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 5px;
+    padding: 65px 20px;
+  }
+
+  .experience-section .left,
+  .experience-section .right {
+    width: 100%;
+  }
+
+  .travel-stories {
+    padding: 65px 0;
+  }
+
+  .travel-stories .container .heading {
+    margin: 0 20px;
+    padding: 0 0 28px;
+  }
+
+  .travel-stories .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .travel-stories .container {
+    max-width: 767px;
+  }
+
+  .travel-stories .card {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .travel-stories .card .image img {
+    width: 100%;
+  }
+
+  .explore-ordinary {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .explore-ordinary .content {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .explore-ordinary .content .description {
+    margin: 0 0 40px 0;
+  }
+
+  .explore-ordinary .content .description p {
+    margin: 0;
+  }
+
+  .carousel {
+    padding-top: 10px;
+    padding-bottom: 65px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carousel span {
+    font-size: 70px;
+  }
+
+  .review-section {
+    padding: 0;
+    padding-bottom: 65px;
+  }
+
+  .review-section .review-container {
+    padding: 0 50px;
+  }
+
+  .review-section .position p {
+    margin: 0;
+  }
+
+  .review-section .pagination {
+    margin: 40px 0 0;
+  }
+
+  .instagram {
+    padding: 65px 0;
+  }
+
+  .instagram .images {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+  }
+
+  .instagram-container {
+    max-width: calc(100vw - 20px * 2);
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer .navigation {
+    /* Stack the grid into a single column on medium screens */
+    padding-bottom: 65px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .footer .navigation .heading {
+    width: 100%;
+  }
+
+  .footer .navigation .navigation-container {
+    /* Keep the inner columns as a 3-column grid where space allows */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  /* Mobile: make column-1 full width, and column-2 & column-3 side-by-side */
+  .footer .navigation .navigation-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    grid-auto-flow: row;
+  }
+
+  /* Ensure the first column (address/contact) spans both columns */
+  .footer .navigation .navigation-container .column-1 {
+    grid-column: 1 / -1;
+  }
+
+  .footer .navigation .navigation-container .column {
+    width: 100%;
+  }
+}
