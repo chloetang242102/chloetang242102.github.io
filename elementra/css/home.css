@@ -16,7 +16,7 @@ body {
   flex-direction: row;
   gap: 90px 90px;
   align-items: flex-end;
-  height: 100%;
+
 }
 
 .learn-more {
@@ -29,29 +29,10 @@ body {
 
 .hero-image img {
   display: inline-block;
-  vertical-align: middle;
-  aspect-ratio: auto 738 / 851;
-  overflow-clip-margin: content-box;
-  overflow: clip;
-  width: 738px;
-  height: 851px;
+
 }
 
-h2.heading-title {
-  font-size: 7vw;
-  line-height: 0.9em;
-  letter-spacing: -0.03em;
-  margin: 0vw 0vw 0vw -0.8vw;
-  padding: 0;
-}
 
-h1.heading-title {
-  font-size: 10.9vw;
-  line-height: 0.9em;
-  letter-spacing: -0.05em;
-  margin: 0vw 0vw 0vw -1.3vw;
-  padding: 0px 0px 45px 0px;
-}
 
 /* .hero-section layout and button styles are defined in general.css */
 
@@ -66,12 +47,15 @@ h1.heading-title {
 .learn-more .icon {
   padding: 0 0 55px 0;
 }
+
 .learn-more .icon svg {
   height: 60px;
 }
+
 .hero-section .description {
   padding: 0 0 40px 0;
 }
+
 .hero-section .description h6 {
   font-size: 14px;
   line-height: 1.85em;
@@ -126,27 +110,31 @@ h1.heading-title {
   flex-direction: column;
   align-items: center;
   padding: 45px 30px;
-  height: 100%;
+  box-sizing: border-box;
 }
 
 .adventure-section .card-1 {
   background-color: #677115;
 }
+
 .adventure-section .card p {
   margin: 0 0 26px 0;
 }
+
 .adventure-section .card-2 {
   background-color: #ffffff;
 }
+
 .adventure-section .card-3 {
   background-color: #a8463f;
 }
 
 .adventure-section .card-image {
-  overflow: hidden;
+
   display: flex;
-  height: 100%;
+
 }
+
 .adventure-section .card-image-1 {
   border-radius: 200px 200px 0 0;
 }
@@ -154,6 +142,7 @@ h1.heading-title {
 .adventure-section .card-image-2 {
   border-radius: 100px 0 100px 0;
 }
+
 .adventure-section .card-image-3 {
   border-radius: 200px;
 }
@@ -165,6 +154,7 @@ h1.heading-title {
 .adventure-section .card-learn-more {
   margin-top: 30px;
 }
+
 .adventure-section .card-learn-more a h6 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -175,6 +165,7 @@ h1.heading-title {
   letter-spacing: -0.03em;
   color: #e7e7d9;
 }
+
 .location-section .heading-title {
   display: flex;
   flex-direction: column;
@@ -212,6 +203,7 @@ h1.heading-title {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+
 .content-image-2,
 .content-image-4 {
   margin-top: 30px;
@@ -221,12 +213,14 @@ h1.heading-title {
   display: flex;
   justify-content: center;
 }
+
 .record-section .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding-bottom: 150px;
   width: 1100px;
 }
+
 .record-section h1 {
   font-size: 120px;
   line-height: 0.9em;
@@ -250,18 +244,22 @@ h1.heading-title {
   justify-content: flex-end;
   padding: 60px;
 }
+
 .explore-more .content {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
+
 .explore-more .content .heading-title {
   width: 66.66%;
 }
+
 .explore-more .content .heading-title h1 {
   width: 585px;
   color: #fffefe;
 }
+
 .white-button a {
   color: #fffefe;
   border-color: #fffefe;
@@ -285,10 +283,12 @@ h1.heading-title {
   padding: 150px 70px;
   max-width: 100%;
 }
+
 .experience-section .left,
 .experience-section .right {
   width: 50%;
 }
+
 .experience-section .left .caption h6 {
   margin: 0 0 25px 0;
 }
@@ -296,22 +296,26 @@ h1.heading-title {
 .experience-section .left .title {
   margin: 0 0 28px 0;
 }
+
 .experience-section .caption h6 {
   font-size: 14px;
-  text-transform: uppercase;
-  line-height: 1em;
-  letter-spacing: 1px;
+
+
 }
+
 .experience-section .left .description {
   margin: 0 0 9vw 0;
 }
+
 .experience-section .left .description p,
 .experience-section .right .description p {
   color: #82878e;
 }
+
 .experience-section .left .description p:first-child {
   margin-bottom: 1.62em;
 }
+
 .experience-section .right {
   display: flex;
   flex-direction: column;
@@ -325,10 +329,12 @@ h1.heading-title {
   flex-direction: column;
   padding: 150px 0;
 }
+
 .travel-stories .container {
   display: flex;
   max-width: 1100px;
 }
+
 .travel-stories .container .heading {
   flex-direction: column;
   margin: 0 8vw;
@@ -336,6 +342,7 @@ h1.heading-title {
   width: 100%;
   padding: 0 0 52px;
 }
+
 .travel-stories .heading .caption h6 {
   font-size: 14px;
   text-transform: uppercase;
@@ -350,14 +357,17 @@ h1.heading-title {
   flex-direction: row;
   padding: 0 70px;
 }
+
 .travel-stories .card {
   width: 25%;
   margin: 0 0 30px;
   padding: 0 15px;
 }
+
 .travel-stories .card .image {
   margin-bottom: 22px;
 }
+
 .travel-stories .card .card-content .caption {
   font-size: 14px;
   font-weight: 400;
@@ -366,9 +376,11 @@ h1.heading-title {
   letter-spacing: 1.5px;
   margin-bottom: 10px;
 }
+
 .travel-stories .card .card-content .title h4 {
   margin-bottom: 7px;
 }
+
 .travel-stories .card .card-content .date {
   font-size: 14px;
   line-height: 1.5em;
@@ -389,6 +401,7 @@ h1.heading-title {
   align-items: flex-end;
   padding: 70px;
 }
+
 .explore-ordinary .content {
   background-color: #ffffff;
   width: 410px;
@@ -396,16 +409,20 @@ h1.heading-title {
   flex-direction: column;
   padding: 55px 40px;
 }
+
 .explore-ordinary .content .title h2 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+
 .explore-ordinary .content .description {
   margin: 0 0 9.7vw 0;
 }
+
 .explore-ordinary .content .description p {
   color: #82878e;
 }
+
 .explore-ordinary .content .get-started a h6 {
   font-size: 12px;
   line-height: 1em;
@@ -418,6 +435,7 @@ h1.heading-title {
   flex-direction: column;
   padding: 15px 0 150px;
 }
+
 .carousel span {
   font-size: 140px;
   font-family: "Tenor Sans", sans-serif;
@@ -438,6 +456,7 @@ h1.heading-title {
   align-items: center;
   padding: 0 0 150px;
 }
+
 .review-section .review-container {
   width: 780px;
   display: flex;
@@ -446,6 +465,7 @@ h1.heading-title {
   justify-content: center;
   text-align: center;
 }
+
 .review-section .review-container .stars {
   font-size: 17px;
   margin: 0 0 26px 0;
@@ -453,6 +473,7 @@ h1.heading-title {
   justify-content: center;
   align-items: center;
 }
+
 .review-section .review-container .stars svg {
   display: inline-block;
   width: 1em;
@@ -464,32 +485,38 @@ h1.heading-title {
 .review-section .review-container .comments {
   margin: 0 0 50px 0;
 }
+
 .review-section .review-container .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .review-section .review-container .profile .image {
   width: 65px;
   height: 65px;
   margin: 0 0 15px 0;
 }
+
 .review-section .review-container .profile .image img {
   object-fit: cover;
   width: 100%;
   height: 100% !important;
   border-radius: 50%;
 }
+
 .review-section .review-container .profile .name h6 {
   text-align: center;
   margin: 0 0 4px 0;
 }
+
 .review-section .review-container .profile .position p {
   color: #a7acb2;
   font-size: 15px;
   line-height: 20px;
 }
+
 .review-section .pagination {
   margin: 40px 0 0;
   display: flex;
@@ -497,6 +524,7 @@ h1.heading-title {
   align-items: center;
   gap: 23px;
 }
+
 .review-section .pagination .pagination-bullet {
   height: 7px;
   width: 7px;
@@ -507,12 +535,15 @@ h1.heading-title {
   transition: background-color 160ms ease, transform 160ms ease;
   outline: none;
 }
+
 .review-section .pagination .active {
   background: #ed9266;
 }
+
 .review-section .pagination .pagination-bullet:hover {
   background: #e68354;
 }
+
 .review-section .pagination .pagination-bullet:focus {
   border-radius: 50%;
 }
@@ -522,12 +553,14 @@ h1.heading-title {
   flex-direction: column;
   padding: 150px 0;
 }
+
 /* Instagram underline SVG styling */
 .instagram .instagram-container .title h6 {
   padding: 0;
   text-align: center;
   margin: 0 0 40px 0;
 }
+
 .instagram .instagram-container .title a {
   color: #140503;
   text-decoration: none;
@@ -536,6 +569,7 @@ h1.heading-title {
   align-items: center;
   gap: 8px;
 }
+
 .instagram .instagram-container .title a svg {
   position: absolute;
   width: 100px;
@@ -543,22 +577,26 @@ h1.heading-title {
   overflow: visible;
   color: #ed9266;
 }
+
 .instagram .instagram-container .title a svg path {
   fill: none;
   stroke: #ed9266;
   stroke-width: 50;
   stroke-dasharray: 1500px, 1500px;
 }
+
 .instagram-container {
   height: 100%;
   margin: 0 auto;
   max-width: 1100px;
   width: 100%;
 }
+
 .instagram-container .title h6 {
   font-size: 14px;
   letter-spacing: 1px;
 }
+
 .instagram-container .images {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -572,6 +610,7 @@ h1.heading-title {
   overflow: hidden;
   padding: 100px 70px 70px;
 }
+
 .footer .navigation {
   /* Use CSS Grid: left column for heading, right column for navigation columns */
   display: grid;
@@ -580,17 +619,21 @@ h1.heading-title {
   padding-bottom: 150px;
   align-items: start;
 }
+
 .footer .navigation .heading {
   /* let the grid control sizing */
   width: auto;
 }
+
 .footer .navigation .heading .title {
   margin: 0 0 40px 0;
 }
+
 .footer .navigation .heading .description p {
   color: #ffffff;
   width: 90%;
 }
+
 .footer .navigation .navigation-container {
   /* make the right side a 3-column grid for the footer columns */
   display: grid;
@@ -599,29 +642,36 @@ h1.heading-title {
   padding-top: 3px;
   width: auto;
 }
+
 .footer .navigation .navigation-container .column {
   /* columns will be sized by the grid */
   width: auto;
 }
+
 .footer .navigation .navigation-container .column .content h6,
 .footer .navigation .navigation-container .column .content a,
 .footer .navigation .navigation-container .column .content span,
 .footer .navigation .navigation-container .column .content {
   color: #ffffff;
 }
+
 .footer .navigation .navigation-container .column .content h6 {
   margin: 0 0 25px 0;
 }
+
 .footer .navigation .navigation-container .column .address {
   margin: 0 0 35px 0;
 }
+
 .footer .navigation .navigation-container .column .address p {
   color: #ffffff;
   width: 70%;
 }
+
 .footer .navigation .navigation-container .column .email {
   margin: 0 0 35px 0;
 }
+
 .footer .navigation .navigation-container .column ul {
   list-style-type: none;
   padding: 0;
@@ -630,15 +680,89 @@ h1.heading-title {
   flex-direction: column;
   gap: 25px;
 }
+
 .footer .navigation .navigation-container .column ul li a span {
   color: #ffffff;
 }
+
 .footer .title h1 {
   font-size: 15vw;
   letter-spacing: -7px;
   color: #573435;
 }
 
+/* About page hero */
+.about-hero {
+  background: #fbfbf0;
+  padding: 60px 0 40px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 460px;
+  gap: 40px;
+  align-items: start;
+}
+
+.about-meta .kicker {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #6b6b6b;
+  margin-bottom: 18px;
+}
+
+.about-title {
+  font-family: "Tenor Sans", serif;
+  font-size: 64px;
+  line-height: 1.02;
+  color: #2b1a19;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.about-intro p {
+  color: #7f8588;
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1.8;
+  max-width: 420px;
+  margin: 10px 0 0;
+  font-size: 15px;
+}
+
+/* full-width hero image below the headings */
+.about-hero-image {
+  margin: 40px 0 0;
+  padding: 0 70px;
+}
+
+.about-hero-image img {
+  width: 100%;
+  display: block;
+  border-radius: 2px;
+  box-shadow: 0 6px 30px rgba(34, 34, 34, 0.08);
+  height: auto;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+/* floating chat widget on left like screenshot */
+.chat-widget {
+  position: fixed;
+  left: 24px;
+  bottom: 120px;
+  background: #39b54a;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 24px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  z-index: 999;
+}
+
+/* responsive */
 @media (max-width: 1279px) {
   .hero-section {
     padding: 30px 30px 50px;
@@ -873,6 +997,7 @@ h1.heading-title {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer .navigation {
     /* Stack the grid into a single column on medium screens */
     padding-bottom: 65px;
@@ -891,6 +1016,7 @@ h1.heading-title {
     gap: 20px;
     width: 100%;
   }
+
   /* Mobile: make column-1 full width, and column-2 & column-3 side-by-side */
   .footer .navigation .navigation-container {
     grid-template-columns: repeat(2, 1fr);
@@ -905,5 +1031,35 @@ h1.heading-title {
 
   .footer .navigation .navigation-container .column {
     width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-image {
+    padding: 0 20px;
+  }
+
+  .about-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-intro p {
+    max-width: 100%;
+  }
+
+  .chat-widget {
+    left: 12px;
+    bottom: 90px;
+    padding: 8px 12px;
   }
 }
