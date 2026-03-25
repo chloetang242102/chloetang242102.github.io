@@ -16,16 +16,12 @@
 
     <div class="general-extend header-bg">
         <div class="extend header-container">
-
             <div class="logo">
-                <a href="home.html">
-                    <img src="image/general/logo.png" alt="Elementra Logo">
-                </a>
+                <a href="home.html"><img src="image/general/logo.png" alt="Logo"></a>
             </div>
 
-
-            <div class="menu-wrapper">
-                <nav class="nav-menu" id="nav-menu">
+            <div class="menu-wrapper desktop-only">
+                <nav class="nav-menu">
                     <ul>
                         <li><a href="home.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
@@ -37,29 +33,38 @@
                 </nav>
             </div>
 
-            <div class="header-socials">
-                <a href="https://twitter.com" target="_blank">
-                    <img src="image/general/X-Icon.png" alt="X (Twitter)">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="image/general/IG-Icon.png" alt="Instagram">
-                </a>
+            <div class="header-socials desktop-only">
+                <a href="#"><img src="image/general/X-Icon.png" alt="X"></a>
+                <a href="#"><img src="image/general/IG-Icon.png" alt="IG"></a>
             </div>
-
 
             <div class="hamburger" id="menu-toggle">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+
+            <div class="menu-overlay" id="menu-overlay">
+                <div class="close-btn" id="close-menu">&times;</div>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="tours.html">Tours Details</a></li>
+                        <li><a href="tours.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
-
 
     <div class="general-extend hero-section">
         <div class="extend">
             <div class="hero-content">
 
+                <div class="hero-contect-background"><img src="image/home/home-bg.png"></div>
                 <h2 class="sub-title">Explore</h2>
                 <h1 class="main-title">New Horizons</h1>
 
@@ -86,7 +91,6 @@
                     </div>
                 </div>
 
-
                 <div class="hero-divider">
                     <span class="dot"></span>
                     <div class="line"></div>
@@ -95,6 +99,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="general-extend feature-section">
         <div class="extend">
@@ -138,6 +143,7 @@
             </div>
         </div>
     </div>
+
 
 
     <div class="general-extend location-section">
@@ -205,7 +211,6 @@
         </div>
     </div>
 
-
     <div class="general-extend overlay-cta-section">
         <div>
             <div class="overlay-container">
@@ -224,6 +229,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="general-extend interlock-section">
         <div class="extend">
@@ -247,13 +253,13 @@
 
                 <div class="interlock-col col-right">
                     <div class="interlock-image">
-                        <img src="image/home/6-1.png" alt="Destination 2 - Forest path" style="margin-top: 120px; ">
+                        <img src="image/home/6-1.png" alt="Destination 2 - Forest path">
                     </div>
                     <div class="interlock-text">
-                        <p class="interlock-desc" style="margin-top: 260px;">We prioritize customer satisfaction,
-                            integrity, and creativity, ensuring that every journey is not only memorable but also
-                            enriching. Since our inception in 2020, we have established ourselves as a reliable partner
-                            for travelers seeking unique and personalized experiences.</p>
+                        <p class="interlock-desc123">We prioritize customer satisfaction, integrity, and creativity,
+                            ensuring that every journey is not only memorable but also enriching. Since our inception in
+                            2020, we have established ourselves as a reliable partner for travelers seeking unique and
+                            personalized experiences.</p>
                     </div>
                 </div>
             </div>
@@ -349,7 +355,6 @@
                 <img src="image/home/8-1.jpg" alt="Mountain View - Snowy peaks">
             </div>
 
-
             <div class="mountain-floating-box">
                 <h2 class="floating-title">Explore <br> beyond the <br> ordinary</h2>
                 <p class="floating-desc">
@@ -362,6 +367,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="general-extend static-text-section">
         <div class="static-text-wrapper">
@@ -422,6 +428,7 @@
         </div>
     </div>
 
+
     <div class="general-extend instagram-section">
         <div class="extend">
 
@@ -478,7 +485,6 @@
                 <p class="footer-phone">+1 840 841 25 69</p>
             </div>
 
-
             <div class="footer-col">
                 <h4 class="footer-label">Links</h4>
                 <ul>
@@ -504,33 +510,9 @@
     </footer>
 
 
-    <div class="fixed-sidebar">
-        <a href="#" class="sidebar-item dark">
-            <img src="image/home/menu.png" alt="Menu icon">
-            <span>185+ Demos</span>
-        </a>
-        <a href="#" class="sidebar-item dark">
-            <img src="image/home/thunder.png" alt="Thunder icon">
-            <span>Free Trial</span>
-        </a>
-        <a href="#" class="sidebar-item blue">
-            <img src="image/home/shopping-bag.png" alt="Shopping bag icon">
-            <span>Buy Now</span>
-        </a>
-    </div>
 
-    <div class="fixed-chat">
-        <a href="#" class="chat-btn">
-            <img src="image/home/chatIcon.png" alt="Chat">
-            <span class="chat-label">Presale Chat</span>
-        </a>
-    </div>
 
-    <div class="fixed-to-top" id="toTopBtn">
-        <a href="javascript:void(0)" onclick="scrollToTop()">
-            <img src="image/home/ToTopArrow.png" alt="Back to top">
-        </a>
-    </div>
+
     <!-- JavaScript -->
     <script src="js/main.js"></script>
 </body>
